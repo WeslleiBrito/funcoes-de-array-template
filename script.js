@@ -17,6 +17,7 @@ function modificarVida(objeto) {
 const pokemonsVidaCheia = pokemons.map(modificarVida)
 //console.log(pokemonsVidaCheia)
 
+// Letra c
 const pokemonsDeFogo = pokemons.filter((elemento) => 
   elemento.tipo === 'fogo'
 )
