@@ -6,3 +6,19 @@ const pokemons = [
   { nome: 'Squirtle', tipo: 'água', vida: 45 },
   { nome: 'Psyduck', tipo: 'água', vida: 25 },
 ]
+
+// Letra A
+function modificarVida(objeto) {
+
+    return {...objeto, vida: 100}
+}
+
+// Letra B
+const pokemonsVidaCheia = pokemons.map(modificarVida)
+//console.log(pokemonsVidaCheia)
+
+const pokemonsDeFogo = pokemons.filter((elemento) => 
+  elemento.tipo === 'fogo'
+)
+
+console.log(pokemonsDeFogo)
